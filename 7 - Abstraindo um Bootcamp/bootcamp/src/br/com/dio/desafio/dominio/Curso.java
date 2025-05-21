@@ -20,7 +20,7 @@ public class Curso extends Conteudo{
         return "Curso - seu Xp = "+
         calcularXp() 
         + ", Carga Horária: " 
-        + getCargaHoraria() 
+        + getCargaHoraria()  + " Horas, "
         + " Título: "
         + getTitulo()
         + ", Descrição: " 

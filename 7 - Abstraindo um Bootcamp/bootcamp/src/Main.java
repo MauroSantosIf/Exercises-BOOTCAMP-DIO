@@ -17,10 +17,20 @@ public class Main {
         mentoria.setDescricao("descrição mentoria java");
         mentoria.setData(LocalDate.now());
 
-        
+        Bootcamp bootcamp = new Bootcamp();
+        bootcamp.setNome("Bootcamp Java Developer");
+        bootcamp.setDescricao("Descrição Bootcamp Java Developer");
+        bootcamp.getConteudos().add(curso);
 
-        System.out.println(mentoria);
-        System.out.println(curso);
+        Dev devMauro = new Dev();
+        devMauro.setNome("Mauro");
+        devMauro.inscreverBootcamp(bootcamp);
+        System.out.println("Conteudo inscritos "+ devMauro.getConteudosInscritos());
+        System.out.println("----------------------------------------------");
+        devMauro.progredir();
+       
+        System.out.println("Conteudo inscritos "+ devMauro.getConteudosInscritos());
+
 
     }
 }
