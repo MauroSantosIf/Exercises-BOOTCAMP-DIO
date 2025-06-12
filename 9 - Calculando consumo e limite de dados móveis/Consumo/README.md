@@ -18,7 +18,7 @@ A saída do programa deve incluir:
 Exemplos
 A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectivas saídas esperadas. Certifique-se de testar seu programa com esses exemplos e com outros casos possíveis.
 
-![tabela.png](/imagem/tabela.png)
+![Tabela de Exemplos - Desafio I](imagem/tabela.png)
 
 
 --------------------------------------------------------------
@@ -40,4 +40,4 @@ Dever
 
 A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectivas saídas esperadas. Certifique-se de testar seu programa com esses exemplos e com outros casos possíveis.
 
-![tabela.png](/imagem/tabelaII.png)
+![Tabela de Exemplos - Desafio II](imagem/tabelaII.png)
